@@ -9,7 +9,6 @@
     "dev": "vite --port 8080 --strictPort",
     "build": "tsc && vite build",
     "eslint-check": "eslint src --ext ts,tsx --report-unused-disable-directives",
-    "tsc-prod": "tsc --project tsconfig.json --pretty --noEmit",
     "lint": "yarn run tsc-prod && yarn run eslint-check",
     "lint-fix": "yarn run eslint-check --fix",
     "preview": "vite preview",
@@ -17,13 +16,13 @@
     "start-container": "docker run --rm -p 8080:80 --name burnout -d burnout"
   },
   "dependencies": {
-    "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.3",
     "react-router-dom": "^6.14.2",
-    "react-tooltip": "^5.24.0",
-    "redux": "^4.2.1"
+    "redux": "^4.2.1",
+    "react-tooltip": "^5.24.0"
+
   },
   "devDependencies": {
     "@types/node": "^20.7.0",

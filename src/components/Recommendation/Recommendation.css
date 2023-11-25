@@ -1,0 +1,20 @@
+.recommendation {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    margin-left: 240px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rec-title {
+    font-family: system-ui,  'Open Sans';
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.li {
+    font-family: system-ui,  'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
