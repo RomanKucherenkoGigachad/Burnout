@@ -1,0 +1,112 @@
+.diagram {
+  margin-left: 120px;
+}
+
+.diagram-block {
+  display: flex;
+  width: 550px;
+  height: 550px;
+  margin-top: 24px;
+}
+
+.quantity {
+  display: flex;
+  height: 550px;
+  width: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  border-right: 1px solid black;
+  padding-right: 5px;
+}
+
+.diagram-space {
+  display: flex;
+  width: 500px;
+  height: 550px;
+  border-bottom: 1px solid black;
+  align-items: end;
+}
+
+.percentage {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.score1 {
+  height: 550px;
+  width: 40px;
+  margin-left: 10px;
+  background-color: #00FF00;
+}
+
+.score2 {
+  background-color: #77E22B;
+  height: 550px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.score3 {
+  background-color: #95E22B;
+  height: 550px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.score4 {
+  background-color: #B3E22B;
+  height: 550px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.score5 {
+  background-color: #D1E22B;
+  height: 550px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.score6 {
+  background-color: #EFE22B;
+  height: 550px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.score7 {
+  background-color: #E2AD00;
+  height: 550px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.score8 {
+  background-color: #E28F00;
+  height: 550px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.score9 {
+  background-color: #E27100;
+  height: 550px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.score10 {
+  background-color: #FF0000;
+  height: 550px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+.block {
+    width: 40px;
+    padding-left: 20px;
+    margin-top: 5px;
+}

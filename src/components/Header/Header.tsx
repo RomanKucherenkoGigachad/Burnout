@@ -11,8 +11,11 @@ const Header = () => {
         <div className="line5" />
         <div className="line6" />
         <div className="line7" />
+        <div className="line8" />
+        <div className="line9" />
+        <div className="line10" />
       </div>
-      <title className="title">Burnout employee</title>
+      <span className="title">Burnout employee</span>
     </div>
   );
 };

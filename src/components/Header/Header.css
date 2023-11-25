@@ -1,5 +1,8 @@
 .header {
     display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
 }
 
 .lines {
@@ -8,57 +11,81 @@
 }
 
 .line1 {
-    background-color: blueviolet;
+    background-color: #00FF00;
+    height: 15px;
+    width: 500px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 5px;
+}
+
+.line2 {
+    background-color: #77E22B;
     height: 15px;
     width: 450px;
     border-bottom-right-radius: 12px;
     margin-bottom: 5px;
 }
 
-.line2 {
-    background-color: blueviolet;
+.line3 {
+    background-color: #95E22B;
     height: 15px;
     width: 400px;
     border-bottom-right-radius: 12px;
     margin-bottom: 5px;
 }
 
-.line3 {
-    background-color: blueviolet;
+.line4 {
+    background-color: #B3E22B;
     height: 15px;
     width: 350px;
     border-bottom-right-radius: 12px;
     margin-bottom: 5px;
 }
 
-.line4 {
-    background-color: blueviolet;
+.line5 {
+    background-color: #D1E22B;
     height: 15px;
     width: 300px;
     border-bottom-right-radius: 12px;
     margin-bottom: 5px;
 }
 
-.line5 {
-    background-color: blueviolet;
+.line6 {
+    background-color: #EFE22B;;
     height: 15px;
     width: 250px;
     border-bottom-right-radius: 12px;
     margin-bottom: 5px;
 }
 
-.line6 {
-    background-color: blueviolet;
+.line7 {
+    background-color: #E2AD00;
     height: 15px;
     width: 200px;
     border-bottom-right-radius: 12px;
     margin-bottom: 5px;
 }
 
-.line7 {
-    background-color: blueviolet;
+.line8 {
+    background-color: rgb(226, 143, 0);
     height: 15px;
     width: 150px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 5px;
+}
+
+.line9 {
+    background-color: #E28F00;
+    height: 15px;
+    width: 100px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 5px;
+}
+
+.line10 {
+    background-color: #E27100;
+    height: 15px;
+    width: 50px;
     border-bottom-right-radius: 12px;
     margin-bottom: 5px;
 }
@@ -66,4 +93,8 @@
 .title {
     font-size: 48px;
     font-weight: 800;
+    font-family: system-ui,  'Open Sans';
+    margin-left: 48px;
+    margin-top: 48px;
+    color: rgb(134, 186, 232);
 }
