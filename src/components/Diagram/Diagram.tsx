@@ -1,6 +1,7 @@
 import { Tooltip } from 'react-tooltip';
-import { percentage, quantity, score } from './constants';
+import { percentage, quantity, employees } from './constants';
 import './Diagram.css';
+import axios from 'axios';
 
 const colorSwitch = (num: number) => {
   switch (num) {
@@ -41,10 +42,10 @@ const Diagram = () => {
 
         <div className="diagram-space">
           <Tooltip id={TOOLTIP_ID} place="top" />
-          {score.map((score, idx) => (
+          {employees.map((score, idx) => (
             <div
               style={{
-                height: `${5.5 * score}px`,
+                height: `${5.5 * score.length}px`,
                 background: colorSwitch(idx),
                 width: 40,
                 marginLeft: 10,
@@ -54,8 +55,7 @@ const Diagram = () => {
                 borderTopLeftRadius: 12,
               }}
               data-tooltip-id={TOOLTIP_ID}
-              data-tooltip-content={String(score)}
-              className="my-anchor-element"
+              data-tooltip-content={String(score.length)}
             />
           ))}
         </div>
