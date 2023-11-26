@@ -1,7 +1,6 @@
 import { Tooltip } from 'react-tooltip';
 import { percentage, quantity, employees } from './constants';
 import './Diagram.css';
-import axios from 'axios';
 
 const colorSwitch = (num: number) => {
   switch (num) {
